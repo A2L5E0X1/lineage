@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Samsung Galaxy S10e
-codename: beyond0lte
+title: Sample Device
+codename: sample
 ---
 
 {% include deviceinfo.md %}

@@ -1,9 +1,11 @@
 ---
 layout: default
-title: LineageOS builds by Linux4
+title: LineageOS builds by A2L5E0X1
 ---
 
-# Supported devices
+# LineageOS builds by A2L5E0X1
+  
+## Available devices
 
 {% assign sorted_pages = site.pages | sort: 'title' %}
 
