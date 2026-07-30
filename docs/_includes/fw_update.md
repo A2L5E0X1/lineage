@@ -26,7 +26,7 @@ Flash %fwname% in BL slot.
 </p>
 
 <script type="text/javascript">
-let fwurl = "{{ site.firmware-update-raw | append: model }}";
+fwurl = "{{ site.firmware-update-raw | append: model }}";
 
 fetch (fwurl).then(response => response.text()).then((text) => {
     let pda = text.split("/")[0];
