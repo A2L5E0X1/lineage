@@ -1,0 +1,25 @@
+models:
+  - SM-A750F
+  - SM-A750FN
+  - SM-A750G
+  - SM-A750GN
+recovery_size: 39845888
+is_samsung: true
+
+chipset: Exynos 7885 (14 nm)
+cpu: Octa-core (2x2.2 GHz Cortex-A73 & 6x1.6 GHz Cortex-A53)
+gpu: Mali-G71
+ram: 4/6 GB
+shipped_version: 8.0 (Samsung Experience 9)
+storage: 64/128 GB eMMC 5.1
+sim: Single or Dual SIM (Nano-SIM)
+microsd: Yes (uses dedicated slot)
+battery: 3300 mAh Li-Po (non-removable)
+dimensions: 159.8 x 76.8 x 7.5 mm (6.29 x 3.02 x 0.30 in)
+display: Super AMOLED, 6.0 inches, 1080 x 2220 pixels, 18.5:9 ratio
+rear_cameras:
+  - 24 MP, f/1.7, 27mm (wide), 1/2.8", 0.9µm, PDAF
+  - 8 MP, f/2.4, 18mm (ultrawide), 1/4.0", 1.12µm
+front_cameras: 24 MP, f/2.0, 26mm (wide), 1/2.8", 0.9µm
+fingerprint: Side-mounted
+sensors: Accelerometer, Gyro, Proximity, Compass

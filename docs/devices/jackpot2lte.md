@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Sample Device
-codename: sample
+title: Samsung Galaxy A8+
+codename: jackpot2lte
 ---
 
 {% include deviceinfo.md %}

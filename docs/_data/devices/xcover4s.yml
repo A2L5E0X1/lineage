@@ -1,0 +1,19 @@
+models:
+  - SM-G398FN
+recovery_size: 55574528
+is_samsung: true
+
+chipset: Exynos 7884 (14 nm)
+cpu: Octa-core (2x1.6 GHz Cortex-A73 & 6x1.6 GHz Cortex-A53)
+gpu: Mali-G71 MP2
+ram: 3 GB
+shipped_version: 9.0 (OneUI 1)
+storage: 32 GB eMMC 5.1
+sim: Single or Dual SIM (Micro-SIM)
+microsd: Yes (uses dedicated slot)
+battery: 2800 mAh Li-Ion (removable)
+dimensions: 146.2 x 73.3 x 9.7 mm (5.76 x 2.89 x 0.38 in)
+display: PLS LCD, 5.0 inches, 720 x 1280 pixels, 16:9 ratio
+rear_cameras: 16 MP, f/1.7, PDAF
+front_cameras: 5 MP, f/2.2
+sensors: Accelerometer, Proximity, Compass
