@@ -4,7 +4,7 @@
 # {{ page.title }} ({{ page.codename }})
 
 [Changelog]({{ "/changes/" | append: page.codename | append: ".html" | relative_url }})  
-{% if is_samsung %}
+{% if device.is_samsung %}
 [Update Firmware]({{ "/fw_update/" | append: page.codename | append: ".html" | relative_url }})  
 {% endif %}
 
