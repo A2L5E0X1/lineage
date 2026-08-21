@@ -1,9 +1,6 @@
-## 1970-01-01
-- bla
-{% if page.codename == "d1" or page.codename == "d2s" or page.codename == "d2x" %}
-- 2023-08-01 vendor securitypatch
-{% elsif page.codename == "beyondx" %}
-- 2023-04-01 vendor securitypatch
-{% elsif page.codename == "f62" %}
-- 2024-01-01 vendor securitypatch
-{% endif %}
+## 2026-08-22
+- initial release build  
+  
+  Changes since 20260816 test build:  
+  - enable CONFIG_USB_CONFIGFS_MASS_STORAGE in defconfig
+  - uncomment c2.android.vp9.encoder entry from media config (since we have it available now)
