@@ -1,3 +1,10 @@
+## 2026-08-25
+{% if page.codename == "a7y18lte" %}
+- setup SKUs for models with NFC (resolves NFC crashes on non-NFC models potentially causing battery drain and heat)
+{% endif %}
+- declare support for mifare tags
+- resolve some selinux denials
+
 ## 2026-08-22
 - initial release build  
   
