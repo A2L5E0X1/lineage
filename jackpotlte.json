@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": "1787397600",
-      "filename": "lineage-18.1-20260822-UNOFFICIAL-A2L5E0X1-jackpotlte.zip",
-      "id": "86a205839adead52cfeb2d7bc731124c9520979972ff98eaee90a9974e750d54",
+      "datetime": "1787656683",
+      "filename": "lineage-18.1-20260825-UNOFFICIAL-A2L5E0X1-jackpotlte.zip",
+      "id": "db7faadb4be9cba43782c358c1c6805f333fb047d26427d025d39d7698d61863",
       "romtype": "UNOFFICIAL",
-      "size": "740914752",
-      "url": "https://github.com/A2L5E0X1/lineage/releases/download/jackpotlte-20260822/lineage-18.1-20260822-UNOFFICIAL-A2L5E0X1-jackpotlte.zip",
+      "size": "740905109",
+      "url": "https://github.com/A2L5E0X1/lineage/releases/download/jackpotlte-20260825/lineage-18.1-20260825-UNOFFICIAL-A2L5E0X1-jackpotlte.zip",
       "version": "18.1"
     }
   ]
