@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": "1787656464",
-      "filename": "lineage-18.1-20260825-UNOFFICIAL-A2L5E0X1-a7y18lte.zip",
-      "id": "9d1e924bc8eaa23b7658a642ec5c30dd2f5c926fdae817c85a3fe5e92aeb62a1",
+      "datetime": "1787827156",
+      "filename": "lineage-18.1-20260827-UNOFFICIAL-A2L5E0X1-a7y18lte.zip",
+      "id": "5450be712cf0fb74cacab6f417e2416f5c10d720b4c9f1a3c9cfa4623e687d2c",
       "romtype": "UNOFFICIAL",
-      "size": "745590432",
-      "url": "https://github.com/A2L5E0X1/lineage/releases/download/a7y18lte-20260825/lineage-18.1-20260825-UNOFFICIAL-A2L5E0X1-a7y18lte.zip",
+      "size": "745587214",
+      "url": "https://github.com/A2L5E0X1/lineage/releases/download/a7y18lte-20260827/lineage-18.1-20260827-UNOFFICIAL-A2L5E0X1-a7y18lte.zip",
       "version": "18.1"
     }
   ]
