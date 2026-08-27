@@ -1,3 +1,4 @@
+{% if page.codename != "jackpot2lte" %}
 ## 2026-08-27
 {% if page.codename == "jackpotlte" %}
 - correct partition sizes for A530N
@@ -17,3 +18,4 @@
   Changes since 20260816 test build:  
   - enable CONFIG_USB_CONFIGFS_MASS_STORAGE in defconfig
   - uncomment c2.android.vp9.encoder entry from media config (since we have it available now)
+{% endif %}
