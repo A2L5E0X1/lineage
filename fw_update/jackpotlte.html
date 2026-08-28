@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Update Firmware on Samsung Galaxy A8</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Update Firmware on Samsung Galaxy A8" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Update Firmware on Samsung Galaxy A8" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"Update Firmware on Samsung Galaxy A8","url":"/fw_update/jackpotlte.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">Update Firmware on Samsung Galaxy A8</h1>
+      <h2 class="project-tagline"></h2>
+      
+      
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      
+<p><a href="/">Home</a></p>
+
+<h1 id="update-firmware-on-samsung-galaxy-a8-jackpotlte">Update Firmware on Samsung Galaxy A8 (jackpotlte)</h1>
+
+<h2>Download latest Firmware for SM-A530F</h2>
+
+<p><a id="fw-download-SM-A530F" href="">No firmware available</a>
+<br />
+<a id="fw-download-sha256-SM-A530F" href="" style="display: none;">sha256</a>
+<br /></p>
+<h4>Installing with Heimdall</h4>
+<p id="fw-install-heimdall-SM-A530F">
+Extract %fwname% and run<br />
+<code>%heimdallcmd%</code><br />
+in the directory you extracted it to.
+</p>
+<h4>Installing with Odin</h4>
+<p id="fw-install-odin-SM-A530F">
+Flash %fwname% in BL slot.
+</p>
+
+<script type="text/javascript">
+fwurl = "https://raw.githubusercontent.com/A2L5E0X1/samsung-fw-update/master/current.SM-A530F";
+
+fetch (fwurl).then(response => response.text()).then((text) => {
+    let pda = text.split("/")[0];
+    let fwName = "firmware-SM-A530F-" + pda;
+    let fwDownload = document.getElementById("fw-download-SM-A530F");
+    fwDownload.href = "https://github.com/A2L5E0X1/samsung-fw-update/releases/download/" + pda + "/" + fwName + ".tar";
+    fwDownload.innerHTML = "Download firmware " + pda;
+
+    let fwDownloadSHA256 = document.getElementById("fw-download-sha256-SM-A530F");
+    fwDownloadSHA256.href = fwDownload.href + ".sha256";
+    fwDownloadSHA256.style.display = "inline-block";
+
+    let releaseUrl = "https://api.github.com/repos/A2L5E0X1/samsung-fw-update/releases/tags/" + pda;
+
+    fetch(releaseUrl).then(response => response.json()).then((json) => {
+        let fwInstallHeimdall = document.getElementById("fw-install-heimdall-SM-A530F");
+        fwInstallHeimdall.innerHTML = fwInstallHeimdall.innerHTML.replace("%fwname%", fwName + ".tar").replace("%heimdallcmd%", json.body);
+
+        let fwInstallOdin = document.getElementById("fw-install-odin-SM-A530F");
+        fwInstallOdin.innerHTML = fwInstallOdin.innerHTML.replace("%fwname%", fwName + ".tar");
+    });
+});
+</script>
+
+<h2>Download latest Firmware for SM-A530N</h2>
+
+<p><a id="fw-download-SM-A530N" href="">No firmware available</a>
+<br />
+<a id="fw-download-sha256-SM-A530N" href="" style="display: none;">sha256</a>
+<br /></p>
+<h4>Installing with Heimdall</h4>
+<p id="fw-install-heimdall-SM-A530N">
+Extract %fwname% and run<br />
+<code>%heimdallcmd%</code><br />
+in the directory you extracted it to.
+</p>
+<h4>Installing with Odin</h4>
+<p id="fw-install-odin-SM-A530N">
+Flash %fwname% in BL slot.
+</p>
+
+<script type="text/javascript">
+fwurl = "https://raw.githubusercontent.com/A2L5E0X1/samsung-fw-update/master/current.SM-A530N";
+
+fetch (fwurl).then(response => response.text()).then((text) => {
+    let pda = text.split("/")[0];
+    let fwName = "firmware-SM-A530N-" + pda;
+    let fwDownload = document.getElementById("fw-download-SM-A530N");
+    fwDownload.href = "https://github.com/A2L5E0X1/samsung-fw-update/releases/download/" + pda + "/" + fwName + ".tar";
+    fwDownload.innerHTML = "Download firmware " + pda;
+
+    let fwDownloadSHA256 = document.getElementById("fw-download-sha256-SM-A530N");
+    fwDownloadSHA256.href = fwDownload.href + ".sha256";
+    fwDownloadSHA256.style.display = "inline-block";
+
+    let releaseUrl = "https://api.github.com/repos/A2L5E0X1/samsung-fw-update/releases/tags/" + pda;
+
+    fetch(releaseUrl).then(response => response.json()).then((json) => {
+        let fwInstallHeimdall = document.getElementById("fw-install-heimdall-SM-A530N");
+        fwInstallHeimdall.innerHTML = fwInstallHeimdall.innerHTML.replace("%fwname%", fwName + ".tar").replace("%heimdallcmd%", json.body);
+
+        let fwInstallOdin = document.getElementById("fw-install-odin-SM-A530N");
+        fwInstallOdin.innerHTML = fwInstallOdin.innerHTML.replace("%fwname%", fwName + ".tar");
+    });
+});
+</script>
+
+<h2>Download latest Firmware for SM-A530W</h2>
+
+<p><a id="fw-download-SM-A530W" href="">No firmware available</a>
+<br />
+<a id="fw-download-sha256-SM-A530W" href="" style="display: none;">sha256</a>
+<br /></p>
+<h4>Installing with Heimdall</h4>
+<p id="fw-install-heimdall-SM-A530W">
+Extract %fwname% and run<br />
+<code>%heimdallcmd%</code><br />
+in the directory you extracted it to.
+</p>
+<h4>Installing with Odin</h4>
+<p id="fw-install-odin-SM-A530W">
+Flash %fwname% in BL slot.
+</p>
+
+<script type="text/javascript">
+fwurl = "https://raw.githubusercontent.com/A2L5E0X1/samsung-fw-update/master/current.SM-A530W";
+
+fetch (fwurl).then(response => response.text()).then((text) => {
+    let pda = text.split("/")[0];
+    let fwName = "firmware-SM-A530W-" + pda;
+    let fwDownload = document.getElementById("fw-download-SM-A530W");
+    fwDownload.href = "https://github.com/A2L5E0X1/samsung-fw-update/releases/download/" + pda + "/" + fwName + ".tar";
+    fwDownload.innerHTML = "Download firmware " + pda;
+
+    let fwDownloadSHA256 = document.getElementById("fw-download-sha256-SM-A530W");
+    fwDownloadSHA256.href = fwDownload.href + ".sha256";
+    fwDownloadSHA256.style.display = "inline-block";
+
+    let releaseUrl = "https://api.github.com/repos/A2L5E0X1/samsung-fw-update/releases/tags/" + pda;
+
+    fetch(releaseUrl).then(response => response.json()).then((json) => {
+        let fwInstallHeimdall = document.getElementById("fw-install-heimdall-SM-A530W");
+        fwInstallHeimdall.innerHTML = fwInstallHeimdall.innerHTML.replace("%fwname%", fwName + ".tar").replace("%heimdallcmd%", json.body);
+
+        let fwInstallOdin = document.getElementById("fw-install-odin-SM-A530W");
+        fwInstallOdin.innerHTML = fwInstallOdin.innerHTML.replace("%fwname%", fwName + ".tar");
+    });
+});
+</script>
+
+
+
+      <footer class="site-footer">
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+  </body>
+</html>
