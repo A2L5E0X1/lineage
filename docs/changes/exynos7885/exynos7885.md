@@ -1,4 +1,9 @@
 {% if page.codename != "jackpot2lte" %}
+{% if page.codename == "jackpotlte" %}
+## 2026-08-28
+- fix a typo in partition sizes that made the build unflashable
+{% endif %}
+
 ## 2026-08-27
 {% if page.codename == "jackpotlte" %}
 - correct partition sizes for A530N
