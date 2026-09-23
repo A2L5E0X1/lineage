@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": "1787830049",
-      "filename": "lineage-18.1-20260827-UNOFFICIAL-A2L5E0X1-xcover4s.zip",
-      "id": "da8163a98d7eadcdb46b43017eeecf8cf904bf4a2a79c06a1de30b2bec4daf1e",
+      "datetime": "1790160118",
+      "filename": "lineage-18.1-20260923-UNOFFICIAL-A2L5E0X1-xcover4s.zip",
+      "id": "8f99796045b98896b00d2afc073a04e4bf07fca32e46dfcd493cbfdc7620a09d",
       "romtype": "UNOFFICIAL",
-      "size": "767325706",
-      "url": "https://github.com/A2L5E0X1/lineage/releases/download/xcover4s-20260827/lineage-18.1-20260827-UNOFFICIAL-A2L5E0X1-xcover4s.zip",
+      "size": "767668952",
+      "url": "https://github.com/A2L5E0X1/lineage/releases/download/xcover4s-20260923/lineage-18.1-20260923-UNOFFICIAL-A2L5E0X1-xcover4s.zip",
       "version": "18.1"
     }
   ]
