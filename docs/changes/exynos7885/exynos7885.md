@@ -1,5 +1,9 @@
 {% if page.codename != "jackpot2lte" %}
+## 2026-09-23
+- update security patches to 2026-06-05
+- enable USB_CONFIGFS_F_HID option in kernel
 {% if page.codename == "jackpotlte" %}
+
 ## 2026-08-28
 - fix a typo in partition sizes that made the build unflashable
 {% endif %}
