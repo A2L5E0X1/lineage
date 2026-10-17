@@ -1,6 +1,14 @@
+{% if page.codename == "jackpot2lte" %}
+## 2026-10-18
+- initial release build
+{% endif %}
+
 {% if page.codename != "jackpot2lte" %}
+## 2026-10-18
+- update security patches to 2026-10-05
+
 ## 2026-09-23
-- update security patches to 2026-06-05
+- update security patches to 2026-09-05
 - enable USB_CONFIGFS_F_HID option in kernel
 {% if page.codename == "jackpotlte" %}
 
