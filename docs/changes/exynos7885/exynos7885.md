@@ -1,3 +1,11 @@
+## 2026-11-08
+- update security patches to 2026-11-01
+- fix 2 critical issues:
+  - fix issue where (mostly on clean install) the phone is stuck on splash while first boot
+  - fix deadlock issue where when phone freezes when it's connected to a PC and the PC wakes up from standby
+- merge upstream-f2fs-stable branch into kernel
+  - fixes some /data related issues and also fixes OTA updates
+
 {% if page.codename == "jackpot2lte" %}
 ## 2026-10-18
 - initial release build
